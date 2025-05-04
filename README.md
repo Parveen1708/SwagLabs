@@ -13,10 +13,7 @@ This framework is built using Selenium WebDriver with Java and TestNG, following
 2.  **Getting the Code:**
     * Clone this repository to your local machine using Git:
         ```bash
-        git clone <repository_link>
-        ```
-        (Replace `<repository_link>` with the actual link to your GitHub/GitLab repository)
-    * Alternatively, if you received a zip file, extract its contents to a directory on your machine.
+        git clone https://github.com/Parveen1708
 
 3.  **Building the Project:**
     * Navigate to the root directory of the project in your terminal or command prompt.
@@ -35,7 +32,7 @@ This framework is built using Selenium WebDriver with Java and TestNG, following
             ```
         * **From an IDE (e.g., IntelliJ IDEA, Eclipse):**
             * Import the project as a Maven project.
-            * Locate the `testng.xml` file (usually in the `src/test/resources` directory).
+            * Locate the `testng.xml` file.
             * Right-click on the `testng.xml` file and select "Run" or "Run As TestNG Suite".
 
 ## Summary of Framework Design Decisions
@@ -68,6 +65,6 @@ The following functional test cases are automated:
 
 ## Submission Guidelines
 
-* The code for this automation framework is available in this [GitHub/GitLab repository](<repository_link>) or provided as a zip file.
+* The code for this automation framework is available in this (https://github.com/Parveen1708)
 * All necessary setup and execution instructions are included in this README file.
 * The framework is designed to run on a clean machine with only Java and Chrome installed.
