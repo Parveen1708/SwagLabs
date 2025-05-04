@@ -1,0 +1,7 @@
+<suite name="SwagLabs Parallel Suite" parallel="methods" thread-count="1">
+    <test name="SwagLabs Parallel Tests">
+        <classes>
+            <class name="test.SwagLabsTests"/>
+        </classes>
+    </test>
+</suite>
