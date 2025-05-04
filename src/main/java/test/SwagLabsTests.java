@@ -18,7 +18,7 @@ public class SwagLabsTests extends BaseTest {
 	        extentTest.info("Navigated to Swag Labs login page");
 
 	        LoginPage loginPage = new LoginPage(driver);
-	        loginPage.login("standard_user", "secrt_sauce");
+	        loginPage.login("standard_user", "secret_sauce");
 	        extentTest.info("Entered credentials and submitted login");
 
 	        ProductsPage productsPage = new ProductsPage(driver);
@@ -46,7 +46,7 @@ public class SwagLabsTests extends BaseTest {
 	        extentTest.info("Navigated to Swag Labs login page");
 
 	        LoginPage loginPage = new LoginPage(driver);
-	        loginPage.login("standard_user", "secret_sauce");
+	        loginPage.login("locked_out_user", "secret_sauce");
 	        extentTest.info("Entered invalid credentials and attempted login");
 
 	        Assert.assertTrue(loginPage.isErrorMessageDisplayed(), "Error message not displayed for invalid login");
